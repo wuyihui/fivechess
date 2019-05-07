@@ -605,8 +605,8 @@ var creatChess = function (x, y, isBlack) {
         chess.src = './image/black.png';
     } else {
         chess.src = './image/white.png';
-        $('.chess').css('background-color','transparent');
-        $('.chess').eq(x * 16 + y).css('background-color','lightblue');
+        $('.chess').css('border','none');
+        $('.chess').eq(x * 16 + y).css('border','1px solid red');
     }
     $('.chess').eq(x * 16 + y).append(chess);
 }
