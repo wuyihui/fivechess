@@ -56,6 +56,7 @@ body{
     font-weight: bold;
     cursor: pointer;
     transition: all linear .2s;
+	line-height: 46px;
 }
 .startbtn:hover{
 	/* border: 1px solid  #8c97cb;
